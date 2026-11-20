@@ -3,6 +3,7 @@
 #include <string>
 #include <set>
 #include <algorithm>
+#include <iostream>
 using namespace std;
 
 const int decksize = 5;
@@ -28,10 +29,9 @@ int playCard(actor &user, actor &enemy,const card &c){
     enemy.def -= (int)round(c.damage * user.atkbuffs);
     if (enemy.def < 0) enemy.def = 0;
     user.def += c.plusDef;
-
 }
 
-int main(){
+int main2(){
     string name = "Man";
     card basic1 = {"attack",1,0};
     card basic2 = {"defence",0,1};
