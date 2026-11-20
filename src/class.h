@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-const int decksize = 5;
+const int HANDSIZE = 5;
 
 
 struct card{
@@ -36,7 +36,7 @@ int main2(){
     card basic1 = {"attack",1,0};
     card basic2 = {"defence",0,1};
     vector<card> pool = {};
-    vector<card> deck{decksize};
-    actor player = {name,deck,1,0};
+    vector<card> hand{HANDSIZE};
+    actor player = {name,hand,1,0};
 
 }
