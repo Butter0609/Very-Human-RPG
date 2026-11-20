@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/butter/Downloads/Very-Human-RPG/build/cmake_install.cmake",
+		"/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

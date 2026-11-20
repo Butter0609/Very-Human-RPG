@@ -1,0 +1,27 @@
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_render_sw.c.o: \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_render_sw.c \
+ /usr/include/stdc-predef.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/SDL_internal.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../SDL_sysrender.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_blit.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../SDL_yuv_sw_c.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_render_sw_c.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_draw.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_blendfillrect.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_blendline.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_blendpoint.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_drawline.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_drawpoint.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/SDL_triangle.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_pixels_c.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_rotate.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_sysvideo.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_vulkan.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_stdinc.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_error.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_video.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_close_code.h \
+ /home/butter/Downloads/Very-Human-RPG/vendored/SDL/src/render/software/../../video/SDL_surface_c.h
