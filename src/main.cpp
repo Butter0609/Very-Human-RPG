@@ -1,7 +1,7 @@
 #include <SDL3/SDL.h>
 #include <iostream>
-#include "cardClass.h"
-#include "animations.h"
+#include "cardClass.hpp"
+#include "animations.hpp"
 
 int main() {
     if (!SDL_Init(SDL_INIT_VIDEO)) {
