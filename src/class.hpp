@@ -1,9 +1,10 @@
-#include <vector>
-#include <cmath>
-#include <string>
-#include <set>
 #include <algorithm>
+#include <cmath>
 #include <iostream>
+#include <set>
+#include <string>
+#include <vector>
+
 using namespace std;
 
 const int HANDSIZE = 5;
