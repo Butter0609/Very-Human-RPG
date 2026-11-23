@@ -3,7 +3,7 @@ MyGame: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/MyGame.dir/src/main.cpp.o \
-  vendored/SDL/libSDL3.so.0.5.0 \
+  libSDL3.so.0.5.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -44,7 +44,7 @@ MyGame: \
 
 CMakeFiles/MyGame.dir/src/main.cpp.o:
 
-vendored/SDL/libSDL3.so.0.5.0:
+libSDL3.so.0.5.0:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
 

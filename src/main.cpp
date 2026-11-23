@@ -1,17 +1,18 @@
 #include <SDL3/SDL.h>
 #include <iostream>
-#include "class.hpp"
+#include "cardClass.hpp"
+#include "animations.hpp"
 
 int main() {
     if (!SDL_Init(SDL_INIT_VIDEO)) {
-        std::cerr << "SDL_Init failed: " << SDL_GetError() << '\n';
+        cerr << "SDL_Init failed: " << SDL_GetError() << '\n';
         return 1;
     }
 
     SDL_Window* window = SDL_CreateWindow("My Game", 800, 600, 0);
 
     if (!window) {
-        std::cerr << "Could not create window: " << SDL_GetError() << '\n';
+        cerr << "Could not create window: " << SDL_GetError() << '\n';
         SDL_Quit();
         return 1;
     }
@@ -19,15 +20,25 @@ int main() {
     SDL_Renderer* renderer = SDL_CreateRenderer(window, nullptr);
 
     if (!renderer) {
-        std::cerr << "Could not create renderer: " << SDL_GetError() << '\n';
+        cerr << "Could not create renderer: " << SDL_GetError() << '\n';
         SDL_DestroyWindow(window);
         SDL_Quit();
         return 1;
     }
 
-    SDL_Surface* surface = SDL_LoadBMP("assets/player.bmp");
+    const char* basePath = SDL_GetBasePath();
+    if (!basePath) {
+        cerr << "Couldn't locate executable: " << SDL_GetError() << '\n';
+        SDL_DestroyRenderer(renderer);
+        SDL_DestroyWindow(window);
+        SDL_Quit();
+        return 1;
+    }
+    const string spritePath = string(basePath) + "assets/playerSprite.bmp";
+
+    SDL_Surface* surface = SDL_LoadBMP(spritePath.c_str());
     if (!surface) {
-        std::cerr << "Couldn't load BMP: " << SDL_GetError() << '\n';
+        cerr << "Couldn't load BMP: " << SDL_GetError() << '\n';
         SDL_DestroyRenderer(renderer);
         SDL_DestroyWindow(window);
         SDL_Quit();
@@ -38,7 +49,7 @@ int main() {
     SDL_DestroySurface(surface);
 
     if (!sprite) {
-        std::cerr << "Couldn't create texture: " << SDL_GetError() << '\n';
+        cerr << "Couldn't create texture: " << SDL_GetError() << '\n';
         SDL_DestroyRenderer(renderer);
         SDL_DestroyWindow(window);
         SDL_Quit();
@@ -55,7 +66,18 @@ int main() {
                 running = false;
             }
         }
-
+        int uin = quick_read();
+        if (uin == ERR) {
+            ;
+        } else if (uin == w) {
+            cout << "w" << endl;
+        } else if (uin == a) {
+            cout << "a" << endl;
+        } else if (uin == s) {
+            cout << "s" << endl;
+        } else if (uin == d) {
+            cout << "d" << endl;
+        }
         SDL_SetRenderDrawColor(renderer, 25, 30, 45, 255);
         SDL_RenderClear(renderer);
         SDL_RenderTexture(renderer, sprite, nullptr, &spriteRect);

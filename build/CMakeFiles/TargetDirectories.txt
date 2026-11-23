@@ -1,8 +1,8 @@
 /home/butter/Downloads/Very-Human-RPG/build/CMakeFiles/MyGame.dir
 /home/butter/Downloads/Very-Human-RPG/build/CMakeFiles/edit_cache.dir
 /home/butter/Downloads/Very-Human-RPG/build/CMakeFiles/rebuild_cache.dir
-/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/CMakeFiles/SDL3_test.dir
-/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/CMakeFiles/edit_cache.dir
-/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/CMakeFiles/rebuild_cache.dir
+/home/butter/Downloads/Very-Human-RPG/build/SDL/CMakeFiles/SDL3-shared.dir
+/home/butter/Downloads/Very-Human-RPG/build/SDL/CMakeFiles/SDL3_test.dir
+/home/butter/Downloads/Very-Human-RPG/build/SDL/CMakeFiles/SDL_uclibc.dir
+/home/butter/Downloads/Very-Human-RPG/build/SDL/CMakeFiles/edit_cache.dir
+/home/butter/Downloads/Very-Human-RPG/build/SDL/CMakeFiles/rebuild_cache.dir

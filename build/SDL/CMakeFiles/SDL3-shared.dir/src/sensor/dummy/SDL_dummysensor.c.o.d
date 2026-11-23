@@ -1,0 +1,27 @@
+SDL/CMakeFiles/SDL3-shared.dir/src/sensor/dummy/SDL_dummysensor.c.o: \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/SDL_dummysensor.c \
+ /usr/include/stdc-predef.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/SDL_internal.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/SDL_dummysensor.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../SDL_syssensor.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../SDL_sensor_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_events_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/../video/SDL_sysvideo.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_vulkan.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_stdinc.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_error.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_video.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_begin_code.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_close_code.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/../video/SDL_surface_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/../video/SDL_blit.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_clipboardevents_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_displayevents_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_dropevents_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_keyboard_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_keymap_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_mouse_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_touch_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_pen_c.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/../SDL_internal.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/src/sensor/dummy/../../events/SDL_windowevents_c.h
