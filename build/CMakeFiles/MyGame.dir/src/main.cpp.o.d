@@ -1,9 +1,9 @@
 CMakeFiles/MyGame.dir/src/main.cpp.o: \
  /home/butter/Downloads/Very-Human-RPG/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_stdinc.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_platform_defines.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_stdinc.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_platform_defines.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,72 +17,72 @@ CMakeFiles/MyGame.dir/src/main.cpp.o: \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_begin_code.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_begin_code.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_close_code.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_assert.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_asyncio.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_atomic.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_audio.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_endian.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_close_code.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_assert.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_asyncio.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_atomic.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_audio.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_endian.h \
  /usr/include/endian.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
  /usr/include/bits/uintn-identity.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_error.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_mutex.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_thread.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_properties.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_iostream.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_bits.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_blendmode.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_camera.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_pixels.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_surface.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_rect.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_clipboard.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_cpuinfo.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_dialog.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_video.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_dlopennote.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_events.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_gamepad.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_guid.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_joystick.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_power.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_sensor.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_keyboard.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_keycode.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_scancode.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_mouse.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_notification.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_pen.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_touch.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_filesystem.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_gpu.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_haptic.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_hidapi.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_hints.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_init.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_loadso.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_locale.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_log.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_messagebox.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_metal.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_misc.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_platform.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_process.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_render.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_storage.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_system.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_time.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_timer.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_tray.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_version.h \
- /home/butter/Downloads/Very-Human-RPG/vendored/SDL/include/SDL3/SDL_oldnames.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_error.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_mutex.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_thread.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_properties.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_iostream.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_bits.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_blendmode.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_camera.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_pixels.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_surface.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_rect.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_clipboard.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_cpuinfo.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_dialog.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_video.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_dlopennote.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_events.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_gamepad.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_guid.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_joystick.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_power.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_sensor.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_keyboard.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_keycode.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_scancode.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_mouse.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_notification.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_pen.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_touch.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_filesystem.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_gpu.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_haptic.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_hidapi.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_hints.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_init.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_loadso.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_locale.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_log.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_messagebox.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_metal.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_misc.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_platform.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_process.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_render.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_storage.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_system.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_time.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_timer.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_tray.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_version.h \
+ /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_oldnames.h \
  /usr/include/c++/16/iostream /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -202,4 +202,40 @@ CMakeFiles/MyGame.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/basic_ios.tcc \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
- /usr/include/c++/16/bits/istream.tcc
+ /usr/include/c++/16/bits/istream.tcc \
+ /home/butter/Downloads/Very-Human-RPG/src/class.h \
+ /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/bits/stl_bvector.h \
+ /usr/include/c++/16/bits/vector.tcc /usr/include/c++/16/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/16/bits/specfun.h \
+ /usr/include/c++/16/limits /usr/include/c++/16/tr1/gamma.tcc \
+ /usr/include/c++/16/tr1/special_function_util.h \
+ /usr/include/c++/16/tr1/bessel_function.tcc \
+ /usr/include/c++/16/tr1/beta_function.tcc \
+ /usr/include/c++/16/tr1/ell_integral.tcc \
+ /usr/include/c++/16/tr1/exp_integral.tcc \
+ /usr/include/c++/16/tr1/hypergeometric.tcc \
+ /usr/include/c++/16/tr1/legendre_function.tcc \
+ /usr/include/c++/16/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/16/tr1/poly_hermite.tcc \
+ /usr/include/c++/16/tr1/poly_laguerre.tcc \
+ /usr/include/c++/16/tr1/riemann_zeta.tcc /usr/include/c++/16/set \
+ /usr/include/c++/16/bits/stl_tree.h \
+ /usr/include/c++/16/ext/aligned_buffer.h \
+ /usr/include/c++/16/bits/node_handle.h \
+ /usr/include/c++/16/bits/stl_set.h \
+ /usr/include/c++/16/bits/stl_multiset.h /usr/include/c++/16/algorithm \
+ /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/bits/stl_tempbuf.h \
+ /usr/include/c++/16/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/16/pstl/execution_defs.h

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL/include-revision -I/home/butter/Downloads/Very-Human-RPG/vendored/SDL/include
+CXX_INCLUDES = -I/home/butter/Downloads/Very-Human-RPG/build/SDL/include-revision -I/home/butter/Downloads/Very-Human-RPG/SDL/include
 
 CXX_FLAGS = -std=gnu++17
 

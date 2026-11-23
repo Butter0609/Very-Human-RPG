@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/MyGame.dir/link.d CMakeFiles/MyGame.dir/src/main.cpp.o -o MyGame  -Wl,-rpath,/home/butter/Downloads/Very-Human-RPG/build/vendored/SDL vendored/SDL/libSDL3.so.0.5.0
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/MyGame.dir/link.d CMakeFiles/MyGame.dir/src/main.cpp.o -o MyGame  -Wl,-rpath,/home/butter/Downloads/Very-Human-RPG/build libSDL3.so.0.5.0

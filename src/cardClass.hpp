@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-const int HANDSIZE = 5;
+const int MAX_HAND_SIZE = 5;
 
 
 struct card{
@@ -29,14 +29,15 @@ int playCard(actor &user, actor &enemy,const card &c){
     enemy.def -= (int)round(c.damage * user.atkbuffs);
     if (enemy.def < 0) enemy.def = 0;
     user.def += c.plusDef;
+    return 0;
 }
 
-int main2(){
+int main2() {
     string name = "Man";
     card basic1 = {"attack",1,0};
     card basic2 = {"defence",0,1};
     vector<card> pool = {};
-    vector<card> hand{HANDSIZE};
+    vector<card> hand{MAX_HAND_SIZE};
     actor player = {name,hand,1,0};
-
+    return 0;
 }

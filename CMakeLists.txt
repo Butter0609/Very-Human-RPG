@@ -11,3 +11,9 @@ add_subdirectory(SDL EXCLUDE_FROM_ALL)
 
 add_executable(MyGame src/main.cpp)
 target_link_libraries(MyGame PRIVATE SDL3::SDL3)
+
+add_custom_command(TARGET MyGame POST_BUILD
+	COMMAND ${CMAKE_COMMAND} -E copy_directory
+		"${CMAKE_SOURCE_DIR}/assets"
+		"$<TARGET_FILE_DIR:MyGame>/assets"
+)
