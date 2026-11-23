@@ -64,7 +64,8 @@ CMakeFiles/MyGame.dir/src/main.cpp.o
  /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_tray.h
  /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_version.h
  /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_video.h
- /home/butter/Downloads/Very-Human-RPG/src/class.h
+ /home/butter/Downloads/Very-Human-RPG/src/animations.hpp
+ /home/butter/Downloads/Very-Human-RPG/src/cardClass.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h

@@ -63,7 +63,8 @@ CMakeFiles/MyGame.dir/src/main.cpp.o: /home/butter/Downloads/Very-Human-RPG/src/
   /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_tray.h \
   /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_version.h \
   /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_video.h \
-  /home/butter/Downloads/Very-Human-RPG/src/class.h \
+  /home/butter/Downloads/Very-Human-RPG/src/animations.hpp \
+  /home/butter/Downloads/Very-Human-RPG/src/cardClass.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -456,14 +457,6 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 
 /usr/include/bits/stdlib-float.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_platform_defines.h:
-
 /usr/include/bits/stdint-least.h:
 
 /usr/lib/libc.so:
@@ -534,11 +527,17 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 
 /usr/include/bits/endianness.h:
 
-/home/butter/Downloads/Very-Human-RPG/src/class.h:
-
 /usr/include/bits/stdint-intn.h:
 
 /usr/include/bits/types/clockid_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_platform_defines.h:
 
 /usr/include/c++/16/bits/exception_ptr.h:
 
@@ -552,15 +551,13 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 
 /usr/include/alloca.h:
 
+/home/butter/Downloads/Very-Human-RPG/src/cardClass.hpp:
+
+/usr/include/c++/16/bits/ptr_traits.h:
+
 /usr/include/bits/select.h:
 
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_tray.h:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/16/bits/stl_tempbuf.h:
 
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_error.h:
 
@@ -617,8 +614,6 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 /usr/include/bits/floatn.h:
 
 /usr/include/c++/16/bits/vector.tcc:
-
-/usr/include/c++/16/bits/ptr_traits.h:
 
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_gpu.h:
 
@@ -756,6 +751,8 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 
 /usr/include/c++/16/bits/stl_construct.h:
 
+/home/butter/Downloads/Very-Human-RPG/src/animations.hpp:
+
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_blendmode.h:
 
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_notification.h:
@@ -785,6 +782,12 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_system.h:
 
 /home/butter/Downloads/Very-Human-RPG/SDL/include/SDL3/SDL_thread.h:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/16/bits/stl_tempbuf.h:
 
 /usr/include/bits/types/mbstate_t.h:
 
@@ -839,6 +842,12 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 /usr/include/bits/waitflags.h:
 
 /usr/include/bits/wctype-wchar.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/16/stdexcept:
+
+/usr/include/bits/wordsize.h:
 
 /usr/include/c++/16/algorithm:
 
@@ -1017,9 +1026,3 @@ CMakeFiles/MyGame.dir/src/main.cpp.o:
 /usr/include/c++/16/pstl/execution_defs.h:
 
 /usr/include/c++/16/set:
-
-/usr/include/stdio.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/include/c++/16/stdexcept:

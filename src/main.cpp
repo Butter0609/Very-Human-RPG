@@ -66,18 +66,18 @@ int main() {
                 running = false;
             }
         }
-        int uin = quick_read();
-        if (uin == ERR) {
+        /* int uin = quick_read();
+        if (uin == 'ERR') {
             ;
-        } else if (uin == w) {
+        } else if (uin == 'w') {
             cout << "w" << endl;
-        } else if (uin == a) {
+        } else if (uin == 'a') {
             cout << "a" << endl;
-        } else if (uin == s) {
+        } else if (uin == 's') {
             cout << "s" << endl;
-        } else if (uin == d) {
+        } else if (uin == 'd') {
             cout << "d" << endl;
-        }
+        }*/
         SDL_SetRenderDrawColor(renderer, 25, 30, 45, 255);
         SDL_RenderClear(renderer);
         SDL_RenderTexture(renderer, sprite, nullptr, &spriteRect);

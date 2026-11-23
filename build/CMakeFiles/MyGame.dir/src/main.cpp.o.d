@@ -203,7 +203,7 @@ CMakeFiles/MyGame.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
  /usr/include/c++/16/bits/istream.tcc \
- /home/butter/Downloads/Very-Human-RPG/src/class.h \
+ /home/butter/Downloads/Very-Human-RPG/src/cardClass.hpp \
  /usr/include/c++/16/vector /usr/include/c++/16/bits/stl_uninitialized.h \
  /usr/include/c++/16/bits/stl_vector.h \
  /usr/include/c++/16/bits/stl_bvector.h \
@@ -238,4 +238,5 @@ CMakeFiles/MyGame.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/uniform_int_dist.h \
  /usr/include/c++/16/bits/stl_tempbuf.h \
  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
- /usr/include/c++/16/pstl/execution_defs.h
+ /usr/include/c++/16/pstl/execution_defs.h \
+ /home/butter/Downloads/Very-Human-RPG/src/animations.hpp

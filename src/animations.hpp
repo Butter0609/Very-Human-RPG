@@ -24,8 +24,10 @@ class spritesheet {
         }
 
         void render(SDL_Renderer* renderer, int x, int y) {
-            SDL_Rect srcRect = { currentFrame * frameWidth, 0, frameWidth, frameHeight };
-            SDL_Rect destRect = { x, y, frameWidth, frameHeight };
-            SDL_RenderCopy(renderer, texture, &srcRect, &destRect);
+            SDL_FRect srcRect = { static_cast<float>(currentFrame * frameWidth), 0.0f,
+                                  static_cast<float>(frameWidth), static_cast<float>(frameHeight) };
+            SDL_FRect destRect = { static_cast<float>(x), static_cast<float>(y),
+                                   static_cast<float>(frameWidth), static_cast<float>(frameHeight) };
+            SDL_RenderTexture(renderer, texture, &srcRect, &destRect);
         }
-}
+};
