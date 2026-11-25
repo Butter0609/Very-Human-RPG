@@ -3,7 +3,8 @@
 #include <string>
 #include <set>
 #include <algorithm>
-#include <iostream>
+#include <cstdlib> 
+#include <ctime>   
 using namespace std;
 
 const int MAX_HAND_SIZE = 5;
@@ -22,7 +23,7 @@ struct card{
 
 struct actor {
     string name{};
-    vector<card> deck{};
+    vector<card> hand{};
     int health = 10;
     float atkbuffs = 1;
     int def{};
@@ -38,7 +39,8 @@ void enemyDeath(actor enemy){
 
 }
 
-void playCard(actor &user, actor &opponent,const card &c){
+//Card should be entered as user.hand.at('n')
+void playCard(actor &user, actor &opponent,card &c){
     opponent.health -= clamp(((int)round(c.damage * user.atkbuffs) - opponent.def),0,100);
     opponent.def -= (int)round(c.damage * user.atkbuffs);
     opponent.status = c.effect;
@@ -56,6 +58,21 @@ void playCard(actor &user, actor &opponent,const card &c){
     } else if(!opponent.player && opponent.health <= 0){
         enemyDeath(opponent);
     }
+    if(user.player){
+        swap(c,user.hand.at((MAX_HAND_SIZE - 1)));
+        user.hand.pop_back();
+    }
+
+}
+
+void drawFirstHand(actor &player, vector<card> pool){
+    for(int i = 0; i < MAX_HAND_SIZE; i++){
+        int randNum = rand() % (pool.size() - 1);
+        player.hand.at(i) = pool.at(randNum);
+        swap(pool.at(randNum),pool.at(pool.size() - 1));
+        pool.pop_back();
+    }
+
 
 }
 
@@ -65,8 +82,6 @@ card defend{"defend",0,2};
 
 int main2() {
     string name = "Man";
-    card basic1 = {"attack",1,0};
-    card basic2 = {"defence",0,1};
     vector<card> pool = {poison,poison,attack,attack,attack,attack,attack,defend,defend,defend};
     vector<card> hand{MAX_HAND_SIZE};
     actor player = {name,hand,10,1,0,status::NONE,true};
