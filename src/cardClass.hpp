@@ -78,6 +78,7 @@ void drawFirstHand(actor &player, vector<card> pool){
 
 card poison{"poison",0,0,status::POISON};
 card attack{"attack",1,0};
+card buffAttack{"buff",0,0,status::NONE,};
 card defend{"defend",0,2};
 
 int main2() {
