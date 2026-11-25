@@ -58,7 +58,7 @@ int main() {
 
     SDL_Event event;
     bool running = true;
-    const SDL_FRect spriteRect = {100.0f, 100.0f, 64.0f, 64.0f};
+    const SDL_FRect spriteRect = {100.0f, 100.0f, 128.0f, 128.0f};
 
     while (running) {
         while (SDL_PollEvent(&event)) {
